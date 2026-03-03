@@ -6,9 +6,10 @@ while True:
     chute = int(input("Adivinhe o número (1 a 100): "))
 
     if chute == numero_secreto:
-        print("Acertou! 🎉")
+        print("Acertou!")
         break
     elif chute > numero_secreto:
         print("Muito alto! Tente de novo.")
     else:
+
         print("Muito baixo! Tente de novo.")
